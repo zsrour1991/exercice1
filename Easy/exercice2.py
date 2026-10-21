@@ -18,8 +18,10 @@ def check(num,num2):
 
 number=""
 number2=""
+checked=""
 number=input("Enter a number: ")
-number2=input("Enter another number: ")
 print(isEven(number)) 
 print(isDivideBy4(number))
-print(check(number, number2))
+number2=input("Enter another number: ")
+checked=input("Enter another number: ")
+print(check(number, checked))
